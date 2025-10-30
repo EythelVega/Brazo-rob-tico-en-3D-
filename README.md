@@ -76,4 +76,37 @@ Cada movimiento manual de un potenciómetro genera una lectura analógica entre 
 2. Observa cómo el brazo se mantiene en su posición inicial.  
 3. Gira lentamente el **potenciómetro 1**: la pinza abrirá o cerrará.  
 4. Gira los otros potenciómetros y verás cómo el brazo se mueve en diferentes direcciones.  
-5. Experimenta con distintas posiciones para coordinar movimientos simultáneos.  
+5. Experimenta con distintas posiciones para coordinar movimientos simultáneos.
+
+   
+##   FAQ (Preguntas Frecuentes)
+
+### 1. ¿Qué tipo de servomotores se pueden usar?
+Se pueden usar servomotores **SG90** para movimientos ligeros o **MG996R** si se requiere mayor torque.  
+El código es compatible con cualquier servo estándar que funcione con señales PWM.
+
+---
+
+### 2. ¿Es necesario usar una fuente externa de alimentación?
+Sí, es **recomendable** alimentar los servos con una fuente externa de **5V–6V**.  
+Si todos los servos se alimentan directamente desde el Arduino, puede haber reinicios o pérdida de potencia.
+
+---
+
+### 3. ¿Se puede controlar el brazo sin potenciómetros?
+Sí. El control mediante potenciómetros es la forma manual básica,  
+pero el código puede modificarse para recibir comandos desde **Bluetooth, joystick, o interfaz gráfica (GUI)**.
+
+---
+
+### 4. ¿Cómo se calibran los servos?
+Antes de ensamblar el brazo, carga un código simple que mueva los servos a **90°**.  
+Luego ajusta físicamente cada pieza 3D en esa posición neutra para que los movimientos sean precisos.
+
+---
+
+### 5. ¿Qué software se necesita para trabajar con el proyecto?
+- **Arduino IDE** para programar el microcontrolador.  
+- **Tinkercad** o **Proteus** para simular el circuito.  
+- **Fusion 360** o **Blender** para modificar las piezas 3D.  
+- **GitHub** para documentar y versionar el proyecto.
