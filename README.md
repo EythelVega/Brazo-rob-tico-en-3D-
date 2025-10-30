@@ -53,8 +53,8 @@ El proyecto puede emplearse para:
 1. Conecta la placa Arduino UNO a tu computadora mediante el cable USB.  
 2. Abre **Arduino IDE**.  
 3. Copia el código del proyecto 
-4. Verifica el código con el botón ✔️ “Verificar”.  
-5. Sube el programa al Arduino con el botón “Subir” 🔼.  
+4. Verifica el código con el botón  “Verificar”.  
+5. Sube el programa al Arduino con el botón “Subir” .  
 6. Conecta los servomotores y potenciómetros según el diagrama de conexión.  
 7. Abre el **monitor serial** (opcional) para observar las lecturas de los potenciómetros.
 
